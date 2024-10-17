@@ -1,10 +1,10 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class DishCategoriesTest {
+public class RecipeCategoriesTest {
     @Test
     void testShow(){
-        DishCategories d = new DishCategories("Breakfast");
+        RecipeCategories d = new RecipeCategories("Breakfast");
         assertEquals("Pancake", d.show());
     }
 }
