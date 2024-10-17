@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class DishCategoriesTest {
     @Test
     void testShow(){
-        Category d = new Category("Breakfast");
+        DishCategories d = new DishCategories("Breakfast");
         assertEquals("Pancake", d.show());
     }
 }
